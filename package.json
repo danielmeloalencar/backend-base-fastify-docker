@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "backend-base-fastify-docker",
   "version": "1.0.0",
-  "description": "",
+  "description": "API backend TypeScript com Fastify, Prisma e Zod. Implementa Repository Pattern, DI, JWT, e documentação Swagger. Pronto para Docker, escalável e bem estruturado para desenvolvimento produtivo.",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
