@@ -383,4 +383,4 @@ A interface do Swagger mostrará todas as rotas disponíveis, seus parâmetros, 
 
 ---
 
-Desenvolvido por [Seu Nome](https://github.com/seunome)
+Desenvolvido por [Daniel Alencar](https://github.com/danielmeloAlencar)
