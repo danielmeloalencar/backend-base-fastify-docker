@@ -1,0 +1,17 @@
+echo '🚩Check for linting errors and run tests before commiting...'
+
+npm run check:fix ||
+(echo '☹️ Please fix the above errors before commiting' && exit 1)
+
+npm run prettier ||
+(echo '☹️ Please fix the above errors before commiting' && exit 1)
+
+echo 'Formatting...'
+npm run prettier
+
+git add .
+
+npm run test
+# final congrat mensage
+echo '😍 All good! You can now commit your changes.'
+

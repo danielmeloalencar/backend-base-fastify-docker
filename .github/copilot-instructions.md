@@ -1,0 +1,5 @@
+- Responda sempre em português.
+- Use sempre aspas simples para strings e imports.
+- Use sempre identação de 2 espaços.
+- Use vírgula no último item de um objeto.
+- Responda sempre de forma concisa e revise suas respostas antes de responder.

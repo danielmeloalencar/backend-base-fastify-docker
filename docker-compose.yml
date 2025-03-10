@@ -1,0 +1,28 @@
+version: '3.7'
+name: meu_app
+services:
+  postgress:
+    container_name: meu_app_postgress
+    image: bitnami/postgresql:latest
+    ports:
+      - '5433:5432' # Mapeando porta externa 5433 para a porta interna 5432 do PostgreSQL
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=meu_app_backend
+    volumes:
+      - meu_app_postgres_data:/bitnami/postgresql
+
+  redis:
+    container_name: meu_app_redis
+    image: bitnami/redis:latest
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - '6379:6379'
+    volumes:
+      - meu_app_redis_data:/bitnami/redis/data
+
+volumes:
+  meu_app_postgres_data:
+  meu_app_redis_data:
