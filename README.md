@@ -1,10 +1,10 @@
 ![Backend Produtivo Banner](/assets/header.png)
 
   <p align="center">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/danielmeloalencar/backend-produtivo">
-    <img alt="stars" src="https://img.shields.io/github/stars/backend-produtivo?logo=github">
-    <img alt="size" src="https://img.shields.io/github/repo-size/backend-produtivo">
-    <img alt="license" src="https://img.shields.io/github/license/backend-produtivo">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/danielmeloalencar/danielmeloalencar/backend-base-fastify-docker">
+    <img alt="stars" src="https://img.shields.io/github/stars/danielmeloalencar/backend-base-fastify-docker?logo=github">
+    <img alt="size" src="https://img.shields.io/github/repo-size/danielmeloalencar/backend-base-fastify-docker">
+    <img alt="license" src="https://img.shields.io/github/license/danielmeloalencar/backend-base-fastify-docker">
   </p>
 
 > :pushpin:
